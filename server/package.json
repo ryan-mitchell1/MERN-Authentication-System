@@ -1,0 +1,29 @@
+{
+  "name": "resume2-backend",
+  "version": "1.0.0",
+  "description": "This is the backend for resume2.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryan-mitchell1/resume2.git"
+  },
+  "author": "Ryan Mitchell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryan-mitchell1/resume2/issues"
+  },
+  "homepage": "https://github.com/ryan-mitchell1/resume2#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.5",
+    "nodemailer": "^6.7.2"
+  }
+}
